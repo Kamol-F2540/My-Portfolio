@@ -204,10 +204,10 @@ export default function Contact({ t }) {
                       value={formState.budget}
                       onChange={handleChange}
                     >
-                      <option value="<$5k">&lt; $5,000</option>
-                      <option value="$5k - $15k">$5,000 — $15,000</option>
-                      <option value="$15k - $30k">$15,000 — $30,000</option>
-                      <option value="$30k+">$30,000+</option>
+                      <option value="<$5k">&lt; $500</option>
+                      <option value="$5k - $15k">$1,000 — $3,000</option>
+                      <option value="$15k - $30k">$5,000 — $10,000</option>
+                      <option value="$30k+">$10,000+</option>
                     </select>
                   </div>
                 </div>

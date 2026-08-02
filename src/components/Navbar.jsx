@@ -28,7 +28,7 @@ export default function Navbar({ theme, setTheme, mode, setMode, lang, setLang, 
           {/* Brand Logo & Compact Status Badge */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem' }}>
             <a href="#" className="nav-brand">
-              Portfolia<span className="brand-dot">.</span>
+              Portfolio<span className="brand-dot">.</span>
             </a>
             <div className="status-badge" title={t.nav.status}>
               <span className="status-dot-pulse" />
