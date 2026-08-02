@@ -1,6 +1,6 @@
 import React from "react";
 import { ArrowRight, Download, Sparkles, Server, Code2 } from "lucide-react";
-import heroUiImg from "../assets/portfolia_hero_ui.jpg";
+import heroUiImg from "../assets/kamol_about_img.png";
 
 export default function Hero({ t }) {
   return (
