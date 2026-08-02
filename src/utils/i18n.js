@@ -37,7 +37,7 @@ export const translations = {
       ctaResume: "Download CV"
     },
     projects: {
-      tag: "✦ KAMOL'S FEATURED PROJECTS",
+      tag: "My FEATURED PROJECTS",
       title: "Web Applications & UI Clones",
       subtitle: "A showcase of real-world projects created by Kamol Bahodirov, including Stilzone.uz barbershop platform, Les Ailes delivery app, and Everlane 1:1 clone.",
       searchPlaceholder: "Search Kamol's projects or tech stack...",
@@ -173,7 +173,7 @@ export const translations = {
       ]
     },
     contact: {
-      tag: "✦ CONNECT WITH KAMOL",
+      tag: "✦ CONNECT WITH ME",
       title: "Let's Build Your Next Web Project!",
       subtitle: "Need a modern React web app, barbershop platform, delivery service, or pixel-perfect UI clone? Get in touch with Kamol!",
       nameLabel: "Your Name",
@@ -372,7 +372,7 @@ export const translations = {
       ]
     },
     contact: {
-      tag: "✦ СВЯЗАТЬСЯ С КАМОЛОМ",
+      tag: "✦ СВЯЗАТЬСЯ С МНОЙ", 
       title: "Давайте создадим ваш следующий веб-проект!",
       subtitle: "Нужно современное веб-приложение на React, платформа для барбершопа или клон интерфейса? Свяжитесь с Камолом!",
       nameLabel: "Ваше имя",
@@ -435,7 +435,7 @@ export const translations = {
       ctaResume: "Rezyume yuklash"
     },
     projects: {
-      tag: "✦ KAMOLNING LOYIHALARI",
+      tag: "✦ MENING LOYIHALARIM",
       title: "Veb-ilovalar va UI Klonlar",
       subtitle: "Kamol Bahodirov tomonidan yaratilgan haqiqiy loyihalar: Stilzone.uz barbershop platformasi, Les Ailes yetkazib berish xizmati va Everlane 1:1 kloni.",
       searchPlaceholder: "Loyiha yoki texnologiyani qidirish...",
@@ -517,7 +517,7 @@ export const translations = {
       ]
     },
     skills: {
-      tag: "✦ KAMOLNING KO'NIKMALARI",
+      tag: "✦ MENING KO'NIKMALARIM",
       title: "Frontend ko'nikmalar va o'rganilayotgan texnologiyalar",
       subtitle: "Frontend UI dizayni, HTML5/CSS3/Tailwind, React 19 va hozirda o'rganilayotgan Node.js hamda TypeScript.",
       categories: {
@@ -571,7 +571,7 @@ export const translations = {
       ]
     },
     contact: {
-      tag: "✦ KAMOL BILAN BOG'LANISH",
+      tag: "✦ MEN BILAN BOG'LANING",
       title: "Yangi veb-loyihangizni birgalikda yarataylik!",
       subtitle: "React veb-ilova, barbershop platformasi yoki interfeys kloni kerakmi? Kamol bilan bog'laning!",
       nameLabel: "Ismingiz",
