@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Sun, Moon, ArrowUpRight, Menu, X } from 'lucide-react';
-import kamolLogo from '../assets/kamol_logo_full.png';
+import kamolLogo from '../assets/kamol_logo_cropped.png';
 
 export default function Navbar({ theme, setTheme, mode, setMode, lang, setLang, t }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -29,7 +29,7 @@ export default function Navbar({ theme, setTheme, mode, setMode, lang, setLang, 
           {/* Brand Logo & Compact Status Badge */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem' }}>
             <a href="#" className="nav-brand-logo" style={{ display: 'flex', alignItems: 'center' }}>
-              <img src={kamolLogo} alt="Kamol Logo" style={{ height: '32px', width: 'auto', objectFit: 'contain' }} />
+              <img src={kamolLogo} alt="Kamol Logo" style={{ height: '32px', width: '32px', objectFit: 'cover', borderRadius: '50%' }} />
             </a>
             <div className="status-badge" title={t.nav.status}>
               <span className="status-dot-pulse" />

@@ -1,0 +1,11 @@
+Add-Type -AssemblyName System.Drawing
+$img = [System.Drawing.Image]::FromFile('C:\Users\user\.gemini\antigravity\brain\ccb9d917-dc14-4ef3-9b6a-56428fd4823f\.user_uploaded\media__1785684214342.png')
+$rect = New-Object System.Drawing.Rectangle(282, 0, 459, 459)
+$bmp = New-Object System.Drawing.Bitmap(459, 459)
+$g = [System.Drawing.Graphics]::FromImage($bmp)
+$g.DrawImage($img, 0, 0, $rect, [System.Drawing.GraphicsUnit]::Pixel)
+$bmp.Save('c:\Users\user\OneDrive\Desktop\portfolia\src\assets\kamol_logo_cropped.png', [System.Drawing.Imaging.ImageFormat]::Png)
+$bmp.Save('c:\Users\user\OneDrive\Desktop\portfolia\public\kamol_favicon.png', [System.Drawing.Imaging.ImageFormat]::Png)
+$g.Dispose()
+$bmp.Dispose()
+$img.Dispose()
