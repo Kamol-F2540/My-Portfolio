@@ -8,10 +8,10 @@ export default function Skills({ t }) {
       title: t.skills.categories.frontend,
       icon: <Code2 size={20} />,
       skills: [
-        { name: 'JavaScript (ESNext)', level: '92%' },
+        { name: 'JavaScript (ESNext)', level: '82%' },
         { name: 'React 19 / JSX', level: '90%' },
-        { name: 'TailwindCSS & HTML5/CSS3', level: '95%' },
-        { name: 'TypeScript (Learning)', level: '60%' },
+        { name: 'TailwindCSS & HTML5/CSS3', level: '90%' },
+        { name: 'TypeScript (Learning)', level: '40%' },
       ]
     },
     {
@@ -19,10 +19,10 @@ export default function Skills({ t }) {
       title: t.skills.categories.backend,
       icon: <Server size={20} />,
       skills: [
-        { name: 'Node.js & Express (Learning)', level: '55%' },
-        { name: 'REST APIs (Learning)', level: '60%' },
-        { name: 'SQL & NoSQL Databases (Learning)', level: '50%' },
-        { name: 'Server Routing Basics', level: '55%' },
+        { name: 'Node.js & Express (Learning)', level: '30%' },
+        { name: 'REST APIs (Learning)', level: '25%' },
+        { name: 'SQL & NoSQL Databases (Learning)', level: '40%' },
+        { name: 'Server Routing Basics', level: '50%' },
       ]
     },
     {
@@ -31,9 +31,9 @@ export default function Skills({ t }) {
       icon: <GitBranch size={20} />,
       skills: [
         { name: 'Git & Version Control', level: '85%' },
-        { name: 'GitHub & Repository Basics', level: '80%' },
+        { name: 'GitHub & Repository Basics', level: '90%' },
         { name: 'Vite & Bundling', level: '85%' },
-        { name: 'Deployment (Vercel / Render)', level: '80%' },
+        { name: 'Deployment (Vercel / Render)', level: '95%' },
       ]
     },
     {
@@ -41,10 +41,10 @@ export default function Skills({ t }) {
       title: 'Vibe Coding & AI Workflows',
       icon: <Sparkles size={20} />,
       skills: [
-        { name: 'AI Prompt Engineering', level: '98%' },
-        { name: 'Rapid Frontend Prototyping', level: '95%' },
+        { name: 'AI Prompt Engineering', level: '90%' },
+        { name: 'Rapid Frontend Prototyping', level: '93%' },
         { name: 'Vibe Coding Development', level: '95%' },
-        { name: 'Real-time Debugging & UI Polish', level: '92%' },
+        { name: 'Real-time Debugging & UI Polish', level: '90%' },
       ]
     }
   ];

@@ -1,5 +1,6 @@
 import React from 'react';
-import { ArrowUp, ArrowRight, Code2, Heart, Sparkles } from 'lucide-react';
+import { ArrowUp, ArrowRight, Heart, Sparkles } from 'lucide-react';
+import kamolLogo from '../assets/kamol_logo_full.png';
 import {
   GithubIcon,
   LinkedinIcon,
@@ -56,9 +57,8 @@ export default function Footer({ t }) {
         <div className="footer-panel">
           <div className="footer-panel-grid">
             <div className="footer-col footer-col-brand">
-              <div className="footer-brand">
-                <span className="brand-logo-badge"><Code2 size={18} /> KB</span>
-                <span className="brand-name">Kamol Bahodirov</span>
+              <div className="footer-brand" style={{ display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }}>
+                <img src={kamolLogo} alt="Kamol Logo" style={{ height: '40px', width: 'auto', objectFit: 'contain' }} />
               </div>
               <p className="footer-brand-desc">{t.footer.brandDesc}</p>
               <div className="footer-status-pill">
