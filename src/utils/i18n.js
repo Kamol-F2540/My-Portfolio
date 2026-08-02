@@ -37,7 +37,7 @@ export const translations = {
       ctaResume: "Download CV"
     },
     projects: {
-      tag: "My FEATURED PROJECTS",
+      tag: "MY FEATURED PROJECTS",
       title: "Web Applications & UI Clones",
       subtitle: "A showcase of real-world projects created by Kamol Bahodirov, including Stilzone.uz barbershop platform, Les Ailes delivery app, and Everlane 1:1 clone.",
       searchPlaceholder: "Search Kamol's projects or tech stack...",
@@ -236,7 +236,7 @@ export const translations = {
       ctaResume: "Скачать резюме"
     },
     projects: {
-      tag: "✦ ПРОЕКТЫ КАМОЛА",
+      tag: "✦ МОИ ПРОЕКТЫ",
       title: "Веб-приложения и UI клоны",
       subtitle: "Реальные проекты Камола Баходирова: платформа для барберов Stilzone.uz, сервис доставки Les Ailes и 1-в-1 клон Everlane.",
       searchPlaceholder: "Поиск проектов или технологий...",
@@ -372,7 +372,7 @@ export const translations = {
       ]
     },
     contact: {
-      tag: "✦ СВЯЗАТЬСЯ С МНОЙ", 
+      tag: "✦ СВЯЗАТЬСЯ СО МНОЙ", 
       title: "Давайте создадим ваш следующий веб-проект!",
       subtitle: "Нужно современное веб-приложение на React, платформа для барбершопа или клон интерфейса? Свяжитесь с Камолом!",
       nameLabel: "Ваше имя",
