@@ -1,7 +1,7 @@
 import stilzoneLogo from '../assets/stilzone_logo.png';
 import lesAilesLogo from '../assets/les_ailes_logo.png';
+import everlaneLogo from '../assets/everlane_logo.png';
 import heroUiImg from '../assets/portfolia_hero_ui.jpg';
-
 export const translations = {
   ENG: {
     nav: {
@@ -102,8 +102,8 @@ export const translations = {
           category: 'UI & Frontend',
           role: 'Frontend Architect',
           metrics: '100% Visual Fidelity',
-          image: heroUiImg,
-          isLogo: false,
+          image: everlaneLogo,
+          isLogo: true,
           description: 'A 1-to-1 pixel-perfect recreation of Everlane (everlane.com) storefront, featuring complex mega-menus & micro-interactions.',
           fullDescription: 'A flagship frontend project demonstrating mastery in pixel-perfect web layout and UX polish. Recreates everlane.com down to exact pixel spacing, luxury typography, multi-level dropdown mega-menus, interactive color/size swatches, and smooth drawer carts.',
           features: [
@@ -301,8 +301,8 @@ export const translations = {
           category: 'UI и Frontend',
           role: 'Frontend Архитектор',
           metrics: '100% Точность дизайна',
-          image: heroUiImg,
-          isLogo: false,
+          image: everlaneLogo,
+          isLogo: true,
           description: 'Пиксельно точный 1-в-1 клон магазина Everlane (everlane.com) с мега-меню и микро-анимациями.',
           fullDescription: 'Флагманский фронтенд проект, демонстрирующий владение пиксельно точной версткой. Воссоздает everlane.com до мельчайших деталей: выпадающие мега-меню, интерактивные переключатели размеров/цветов и выдвижная корзина.',
           features: [
@@ -500,8 +500,8 @@ export const translations = {
           category: 'UI va Frontend',
           role: 'Frontend Arxitektor',
           metrics: '100% Aniq Dizayn',
-          image: heroUiImg,
-          isLogo: false,
+          image: everlaneLogo,
+          isLogo: true,
           description: 'Everlane (everlane.com) saytining 1-ga-1 piksel aniqlikdagi kloni, mega-menyu va interaktiv interfeys bilan.',
           fullDescription: 'Frontend mahoratini ko\'rsatuvchi loyiha: everlane.com dizaynini barcha detallarigacha, mega-menyular, o\'lcham va rang tanlash menyulari hamda qulay savat bilan 1-ga-1 qayta yaratilgan.',
           features: [
