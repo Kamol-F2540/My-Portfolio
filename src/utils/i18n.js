@@ -173,7 +173,7 @@ export const translations = {
       ]
     },
     contact: {
-      tag: "✦ CONNECT WITH ME",
+      tag: "✦ CONTACT ME",
       title: "Let's Build Your Next Web Project!",
       subtitle: "Need a modern React web app, barbershop platform, delivery service, or pixel-perfect UI clone? Get in touch with Kamol!",
       nameLabel: "Your Name",
